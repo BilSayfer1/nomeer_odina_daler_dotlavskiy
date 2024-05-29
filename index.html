@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1>В корзине <span id="total">0</span> товаров</h1>
+            <button class="show-five">Показать первые 5</button>
+            <button class="show-all">Показать все</button>
+            <button id="openSidebarButton" class="openSidebarButton">Корзина</button>
+        </header>
+    </center>
+    <div class="container">
+
+    </div>
+
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-content">
+            <span class="close-button" id="closeSidebarButton">&times;</span>
+            
+            <div id="chtoto" class="cart-item">
+                <input type="checkbox">
+                <img src="./img/665348-smeshnoe-mylo-1.jpg" alt="Merries">
+                <div class="cart-item-details">
+                    <div>Трусики подгузники Merries, размер L 9-14 кг, 44 шт</div>
+                    <div>Продавец: Baby Center</div>
+                </div>
+                <div class="cart-item-quantity">
+                    <button class="minus">−</button>
+                    <input type="text" id="quantity" value="1" readonly>
+                    <button class="plus">+</button>
+                </div>
+                <div class="cart-item-price">
+                    <span id="discounted-price">260 000 сум</span>
+                    <br>
+                    <del>300 000 сум</del>
+                </div>
+                <div class="remove-item">Удалить</div>
+            </div>
+        </div>
+    </div>
+    
+
+ 
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
